@@ -1,15 +1,103 @@
 body {
-    background: LightGray;
+    background: #202020;
+    color: white;
 }
-h {
+h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px
+    font-size: 34px;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 5px solid #383838;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 5px solid #383838;
+    border-top: 5px solid #383838;
+}
+nav {
+    text-align: left;
+    font-size: 30px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-style: outset;
+    border-color: #383838;
+    border-width: 5px;
 }
 p {
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    width: 45%;
+    margin: 10px;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    width: 45%;
+    margin: 10px;
 }
 img {
-    width: 30vw;
+    width: 90%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+}
+figure.one {
+    float: left;
+    height: auto;
+    display: block;
+    border: 15px solid black;
+    width: 25%;
+}
+figure.two {
+    height: auto;
+    display: block;
+    border: 15px solid black;
+    float: left;
+    width: 27%;
+}
+figure.three {
+    float: left;
+    height: auto;
+    display: block;
+    border: 15px solid black;
+    width: 30%;
+}
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: brown;
+}
+video {
+    margin: 20px;
 }
