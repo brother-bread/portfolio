@@ -6,6 +6,10 @@
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
     <head>
+        <style>
+            figure {
+                width: 40%;
+            }</style>
         <!-- What's in the <head> element is a "meta" area not for display. 
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
@@ -20,24 +24,25 @@
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Photos</h1>
+        <h1>Intro to Digital Humanities</h1>
         <nav>
             <a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a
                 href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a
                 href="essay.html">Essay</a> | <a href="introdh.html">IntroDH</a>
         </nav>
-        <p>This is the page that displays my photos.</p>
-        <figure class="one">
-            <img src="images/smallfall.jpeg" />
-            <figcaption>Glacier National Park (I think?)</figcaption>
+        <figure>
+            <img src="images/web-words.png" />
+            <img src="images/web-ngram.png" />
         </figure>
-        <figure class="two">
-            <img src="images/downroad.jpeg" />
-            <figcaption>Glacier National Park</figcaption>
+        <p>This mystery text uses a lot of honorifics, but less than the other text. This text uses
+            a lot more of the actual names of the people rather than an honorific. It also uses a
+            lot of negative n-grams, which can possibly be a common thing in mystery texts. </p>
+        <figure>
+            <img src="images/cac-words.png" />
+            <img src="images/cac-ngram.png" />
         </figure>
-        <figure class="three">
-            <img src="images/redroad.jpeg" />
-            <figcaption>Zion National Park</figcaption>
-        </figure>
+        <p>This text, like the other one, uses honorifics quite a bit. It uses these a lot more
+            frequently than the actual name of the person. This is a longer text than the first one,
+            but has a lot of negative n-grams like the first one.</p>
     </body>
 </html>
