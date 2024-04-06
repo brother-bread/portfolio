@@ -21,6 +21,22 @@
             I used it to apply a background color to the body element.
         -->
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            figure {
+                width: 60%;
+                border: 20px black solid;
+            }
+            figcaption {
+                width: 60%;
+                font-size: 24px;
+            }
+            p {
+                width: 63%;
+                font-size: 24px;
+                border: 10px black solid;
+                margin: 5px;
+                text-align: center;
+            }</style>
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
@@ -30,19 +46,78 @@
                 href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a
                 href="essay.html">Essay</a> | <a href="introdh.html">IntroDH</a>
         </nav>
+        <p><strong>BIG TEXT CORPUS</strong></p>
         <figure>
-            <img src="images/web-words.png" />
-            <img src="images/web-ngram.png" />
+            <img src="images/bigCorpus_3gram.png" />
+            <figcaption>These texts mention the united states a lot, which makes sense since they
+                are conspiracy theories involving the U.S.</figcaption>
         </figure>
-        <p>This mystery text uses a lot of honorifics, but less than the other text. This text uses
-            a lot more of the actual names of the people rather than an honorific. It also uses a
-            lot of negative n-grams, which can possibly be a common thing in mystery texts. </p>
         <figure>
-            <img src="images/cac-words.png" />
-            <img src="images/cac-ngram.png" />
+            <img src="images/bigCorpus_wordCloud.png" />
+            <figcaption>The larger corpus appears to have a large emphasis on the words
+                "government", "people", and "church" for subjects. This makes sense as this is an
+                entire list of conspiracy theories and there are countless things that people though
+                of about the government and the church when forming these theories.</figcaption>
         </figure>
-        <p>This text, like the other one, uses honorifics quite a bit. It uses these a lot more
-            frequently than the actual name of the person. This is a longer text than the first one,
-            but has a lot of negative n-grams like the first one.</p>
+        <figure>
+            <img src="images/bigCorpus_assassinationContext.png" />
+            <figcaption><strong>ALL</strong> of the uses of the word "assassination" involve JFK in
+                some way, as every single text is the same "jfkques" text, and most of them mention
+                JFK in the words nearby.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bigCorpus_5gram.png" />
+            <figcaption>It seems as though Louisville, Kentucky is a frequent subject for conspiracy
+                theories, even in this large amount of texts. This "wisdom box" also seems to be
+                mentioned a lot, could this be some sort of theorertical magical item that is a big
+                thing?</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bigCorpus_assassinationDepth.png" />
+            <figcaption>Looking further into the term "assassination", there seems to be a lot of
+                different assassinations mentioned, which I could not see through the other way I
+                was looking into the term, which is interesting.</figcaption>
+        </figure>
+        <p><strong>SMALL TEXT CORPUS</strong></p>
+        <figure>
+            <img src="images/smallCorpus_3gram.png" />
+            <figcaption>These texts focus on the illuminati, and seem to mention a lot of
+                assassinations.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/smallCorpus_assassinationContext.png" />
+            <figcaption>The illuminati is definitely something that goes far back, as these texts
+                mention medieval moments and even old Roman and Greek moments. Whoever came up with
+                this stuff is definitely on <strong>something</strong> I think.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/smallCorpus_5gram.png" />
+            <figcaption>It looks like a decent amount of gibberish, but looking closer it ends up
+                being just some abbreviations and acronyms that looks weird due to no punctuation
+                being present. There is a lot of ISIS mentioned, as well as Jim
+                Sanders.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/smallCorpus_wordCloud.png" />
+            <figcaption>As many people know, the illuminati is a theoretical cult that work in the
+                government in the shadows. There are many mentions of assassinations and the banks,
+                and the CIA, and the mafia, and the government.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/smallCorpus_assassinationDepth.png" />
+            <figcaption>Looking further into the term "assassination", there are a lot of different
+                mentions of historical events from medieval times and other political leaders other
+                than JFK.</figcaption>
+        </figure>
+        <p>A large amount of this analysis dove into the investigation of the term "assassination".
+            I picked this because deaths of political figures and people of noteriety are of
+            significant value and can drastically change events in time as opposed to the figure not
+            being killed. There are a lot of different mentions of assassinations in both corpi, and
+            JFK seems to be a particularly big mention in a lot of these texts. This makes sense as
+            many people began to question the government around this time, and many conspiracy
+            theories began to prop themselves up around that time. The smaller group of texts seems
+            to mention historical events that are very old and frequently referenced them. The
+            bigger group of texts seems to mostly mention more recent assassinations rather than
+            very old ones.</p>
     </body>
 </html>
